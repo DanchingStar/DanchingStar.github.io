@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+body {
+    font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic", "游ゴシック", "YuGothic", sans-serif;
+}
+
+h1 {
+    padding: 0.4em 0.5em;
+    /*文字の上下 左右の余白*/
+    color: #cf2828;
+    /*文字色*/
+    background: #503cff;
+    /*背景色*/
+    border-left: solid 5px #7db4e6;
+    /*左線*/
+    border-bottom: solid 3px #d7d7d7;
+    /*下線*/
+}
+
+h2 {
+    color: #364e96;
+    /*文字色*/
+    border: solid 3px #364e96;
+    /*線色*/
+    padding: 0.5em;
+    /*文字周りの余白*/
+    border-radius: 0.5em;
+    /*角丸*/
+}
+
+h3 {
+    color: #6594e0;
+    /*文字色*/
+    /*線の種類（点線）2px 線色*/
+    border-bottom: dashed 2px #6594e0;
+}
+
+.mokuji {
+    width: 80%;
+    max-width: 500px;
+    margin: 30px auto;
+    font-weight: bold;
+}
+
+.mokuji a {
+    /*text-decoration: none;*/
+    color: rgb(0, 183, 255);
+}
+
+.mokuji ol {
+    background-color: #053a15;
+    padding-left: 0;
+    list-style: none;
+    counter-reset: section;
+    padding: 20px;
+}
+
+.child_ol li {
+    padding-left: 20px;
+}
+
+.timeline {
+    max-width: 60%;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: auto;
+}
+
+.imagesetting1 img {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.textsetting1 {
+    text-indent: 1em;
+    padding-left: -1em;
+}
+
+footer {
+    background-color: #9e9e9e;
+}
