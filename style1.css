@@ -40,27 +40,26 @@ h3 {
     max-width: 500px;
     margin: 30px auto;
     font-weight: bold;
+    border: dashed 2px #668ad8;
+    background: #f1f8ff;
 }
 
 .mokuji a {
-    /*text-decoration: none;*/
     color: rgb(0, 183, 255);
 }
 
-.mokuji ol {
-    background-color: #053a15;
-    padding-left: 0;
-    list-style: none;
-    counter-reset: section;
-    padding: 20px;
+.mokuji ul {
+    color: #668ad8;
+    padding: 0.5em 0.5em 0.5em 2em;
 }
 
-.child_ol li {
-    padding-left: 20px;
+.mokuji ul li {
+    line-height: 1.5;
+    padding: 0.5em 0;
 }
 
 .timeline {
-    max-width: 60%;
+    max-width: 70%;
     border: 1px solid #333;
     padding: 10px;
     margin: auto;
@@ -68,6 +67,11 @@ h3 {
 
 .imagesetting1 img {
     width: 60%;
+    margin: auto;
+}
+
+.imagesetting2 img {
+    width: 40%;
     display: block;
     margin: auto;
 }
