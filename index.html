@@ -14,136 +14,144 @@
 
 <body>
   <h1>ダンチングスターのホームページ</h1>
-
   <h2>ようこそ！！</h2>
   <p>
   <div class="textsetting1">
-    こちら、ダンチングスターのホームページです。せっかく来ていただいたので、ゆっくり見ていただければと思います。以下、本ページの目次です。
+    こちら、ダンチングスターのホームページです。せっかく来ていただいたので、ゆっくり見ていただければと思います。
   </div>
   </p>
-  <div class="mokuji">
-    <ul>
-      <li><a href="#WhoAmI">ダンチングスターとは？</a> </li>
-      <li><a href="#Games">公開中のゲーム</a>
-        <ul>
-          <li><a href="#Game4">脱出ゲーム ～マンション～</a></li>
-          <li><a href="#Game3">お年玉ADV</a></li>
-          <li><a href="#Game2">ペットボトルロケット</a></li>
-          <li><a href="#Game1">運命共同兄弟</a></li>
-        </ul>
-      </li>
-      <li><a href="#Twitter">Twitter</a> </li>
-    </ul>
+  <div class="tabs">
+    <input id="all" type="radio" name="tab_item" checked>
+    <label class="tab_item" for="all">自己紹介</label>
+    <input id="programming" type="radio" name="tab_item">
+    <label class="tab_item" for="programming">スマホゲーム</label>
+    <input id="design" type="radio" name="tab_item">
+    <label class="tab_item" for="design">Twitter</label>
+    <div class="tab_content" id="all_content">
+      <div class="tab_content_description">
+        <p class="c-txtsp">
+          <h3 id="WhoAmI">ダンチングスターとは？</h3>
+          <div class="imagesetting2"><img src="image/DanchingStar.png" alt="ダンチングスター"></div>
+          <br>
+          <div class="textsetting1">
+            ダンチングスター（DanchingStar）は個人で活動しているゲーム開発者です。
+            2022年8月から活動を始めました。
+            現在は技術向上を目的としたトレーニング期間としており、様々なジャンルのゲーム開発に挑戦しています。
+            トレーニング期間は1～2年の予定です。
+            開発はUnityを使用しています。
+            現状はAndroidにて限定で公開していますが、いつかはiOSでも公開したいと思っています。
+          </div>
+        </p>
+      </div>
+    </div>
+    <div class="tab_content" id="programming_content">
+      <div class="tab_content_description">
+        <p class="c-txtsp">
+          <h3 id="Games">公開中のスマホゲーム</h3>
+
+          <p>
+            <div class="textsetting1">
+              現在公開中のゲームです。画像タップでダウンロードページへジャンプできます。すべて無料ですので、お気軽にご覧いただけたらと思います。
+            </div>
+            </p>
+          
+            <h4 id="Game4">脱出ゲーム ～マンション～</h4>
+            <p>
+              「脱出ゲーム ～閉鎖されたマンションの一室～」
+            <div class="imagesetting1">
+              <a href="https://play.google.com/store/apps/details?id=com.DanchingStar.Escape01" target="_blank"
+                rel="noopener noreferrer"><img src="image/escape01.png" alt="脱出ゲーム～マンション～"></a>
+            </div>
+            <div class="textsetting1">
+              第4作品です。
+              スマホゲームで人気のジャンル「脱出ゲーム」を作りました。
+              前作の「お年玉ADV」は季節ものをテーマにしたので、制作にはタイムリミットがありました。
+              今回は季節とかまったく関係がないのでゆっくり作ったのですが、まぁ時間がかかった(笑)。
+              中でもオートセーブの機能実装が難しかったです。
+              後で考えたら「もっと簡単でスマートな方法があったなぁ…」ってなってもう！！
+              まぁこれも学びです。
+              ゲーム内容はおもしろい物になっているので、ぜひ遊んでみてください^^。
+            </div>
+            </p>
+          
+            <h4 id="Game3">お年玉ADV</h4>
+            <p>
+              「お年玉アドベンチャー ～ママが預かっておいてあげるわ～」
+            <div class="imagesetting1">
+              <a href="https://play.google.com/store/apps/details?id=com.DanchingStar.Otoshidama" target="_blank"
+                rel="noopener noreferrer"><img src="image/otoshidama.png" alt="お年玉ADV"></a>
+            </div>
+            <div class="textsetting1">
+              第3作品です。
+              ジャンルは「ノベルゲーム」や「アドベンチャーゲーム」に分類されると思います。
+              季節ものを作りたいと思い、お正月に向けて開発しました。
+              お年玉をテーマにしたゲームが世の中に案外なく、本テーマで制作することにしました。
+              ただ、ジャンル設定をミスりました(汗)。
+              文章を作るのがこんなにも大変だったとは…。
+              何度もスケジュール調整を繰り返し、なんとか世に出すことができました。
+              プロの作家の方々、本当に尊敬します m(_ _)m 。
+              やりこみ要素も作りましたが、文章が稚拙すぎたせいか、2週目以降のプレイ報告を誰からも聞けませんでした(笑)。
+              今これを読んでるアナタ！！
+              挑戦してくれてもいいんですよ！！！
+            </div>
+            </p>
+          
+            <h4 id="Game2">ペットボトルロケット</h4>
+            <p>
+              「ペットボトルロケット ～あの空を超えてゆけ～」
+            <div class="imagesetting1">
+              <a href="https://play.google.com/store/apps/details?id=com.DanchingStar.PetbottleRocket" target="_blank"
+                rel="noopener noreferrer"><img src="image/petbottlerocket.png" alt="ペットボトルロケット"></a>
+            </div>
+            <div class="textsetting1">
+              第2作品です。
+              テーマは「ワンボタン」とし、単純な操作で完結するように作りました。
+              ジャンルは「ミニゲーム」かな？
+              本作の制作では短期間での開発を心がけました。
+              結果、7人日で完成しました。
+              短期間で開発したゲームでしたが、ガッツリやりこんでくださる方もいて、とても励みになりました。
+            </div>
+            </p>
+          
+            <h4 id="Game1">運命共同兄弟</h4>
+            <p>
+              「運命共同兄弟～２人を同時に操作して脱出を目指すパズルゲーム～」
+            <div class="imagesetting1">
+              <a href="https://play.google.com/store/apps/details?id=com.DanchingStar" target="_blank"
+                rel="noopener noreferrer"><img src="image/bros.png" alt="運命共同兄弟"></a>
+            </div>
+            <div class="textsetting1">
+              活動開始してから初めて作成したゲームです。
+              おじさんたちを操作してゴールを目指すゲームです。
+              ジャンルはパズルゲームだと思っています。
+              Unityを扱う上で3Dは避けて通れないと思い、2Dでもいいようなゲームを3Dで作成しました。
+              たくさんのステージを作成するのがこんなにも大変なんだと痛感しました。
+              作ってると難易度の感覚が分からなくなってきます。
+              初めての作品ということもあって、いろいろと荒いところもありますが悪しからず…。
+            </div>
+            </p>
+          
+        </p>
+      </div>
+    </div>
+    <div class="tab_content" id="design_content">
+      <div class="tab_content_description">
+        <p class="c-txtsp">
+          <h3 id="Twitter">Twitter</h3>
+          <div class="textsetting1">
+            ダンチングスターのTwitterです。フォローしていただけると喜びます。
+          </div>
+          <br>
+          <div class="timeline">
+            <a class="twitter-timeline" href="https://twitter.com/Danching_Star?ref_src=twsrc%5Etfw">Tweets by Danching_Star</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        
+        </p>
+      </div>
+    </div>
   </div>
 
-  <h2 id="WhoAmI">ダンチングスターとは？</h2>
-  <p>
-  <div class="imagesetting2"><img src="image/DanchingStar.png" alt="お年玉ADV"></div>
-  <br>
-  <div class="textsetting1">
-    ダンチングスター（DanchingStar）は個人で活動しているゲーム開発者です。
-    2022年8月から活動を始めました。
-    現在は技術向上を目的としたトレーニング期間としており、様々なジャンルのゲーム開発に挑戦しています。
-    トレーニング期間は1～2年の予定です。
-    開発はUnityを使用しています。
-    現状はAndroidにて限定で公開していますが、いつかはiOSでも公開したいと思っています。
-  </div>
-  </p>
-
-  <h2 id="Games">公開中のゲーム</h2>
-  <p>
-  <div class="textsetting1">
-    現在公開中のゲームです。画像タップでダウンロードページへジャンプできます。すべて無料ですので、お気軽にご覧いただけたらと思います。
-  </div>
-  </p>
-
-  <h3 id="Game4">脱出ゲーム ～マンション～</h3>
-  <p>
-    「脱出ゲーム ～閉鎖されたマンションの一室～」
-  <div class="imagesetting1">
-    <a href="https://play.google.com/store/apps/details?id=com.DanchingStar.Escape01" target="_blank"
-      rel="noopener noreferrer"><img src="image/escape01.png" alt="お年玉ADV"></a>
-  </div>
-  <div class="textsetting1">
-    第4作品です。
-    スマホゲームで人気のジャンル「脱出ゲーム」を作りました。
-    前作の「お年玉ADV」は季節ものをテーマにしたので、制作にはタイムリミットがありました。
-    今回は季節とかまったく関係がないのでゆっくり作ったのですが、まぁ時間がかかった(笑)。
-    中でもオートセーブの機能実装が難しかったです。
-    後で考えたら「もっと簡単でスマートな方法があったなぁ…」ってなってもう！！
-    まぁこれも学びです。
-    ゲーム内容はおもしろい物になっているので、ぜひ遊んでみてください^^。
-  </div>
-  </p>
-
-  <h3 id="Game3">お年玉ADV</h3>
-  <p>
-    「お年玉アドベンチャー ～ママが預かっておいてあげるわ～」
-  <div class="imagesetting1">
-    <a href="https://play.google.com/store/apps/details?id=com.DanchingStar.Otoshidama" target="_blank"
-      rel="noopener noreferrer"><img src="image/otoshidama.png" alt="お年玉ADV"></a>
-  </div>
-  <div class="textsetting1">
-    第3作品です。
-    ジャンルは「ノベルゲーム」や「アドベンチャーゲーム」に分類されると思います。
-    季節ものを作りたいと思い、お正月に向けて開発しました。
-    お年玉をテーマにしたゲームが世の中に案外なく、本テーマで制作することにしました。
-    ただ、ジャンル設定をミスりました(汗)。
-    文章を作るのがこんなにも大変だったとは…。
-    何度もスケジュール調整を繰り返し、なんとか世に出すことができました。
-    プロの作家の方々、本当に尊敬します m(_ _)m 。
-    やりこみ要素も作りましたが、文章が稚拙すぎたせいか、2週目以降のプレイ報告を誰からも聞けませんでした(笑)。
-    今これを読んでるアナタ！！
-    挑戦してくれてもいいんですよ！！！
-  </div>
-  </p>
-
-  <h3 id="Game2">ペットボトルロケット</h3>
-  <p>
-    「ペットボトルロケット ～あの空を超えてゆけ～」
-  <div class="imagesetting1">
-    <a href="https://play.google.com/store/apps/details?id=com.DanchingStar.PetbottleRocket" target="_blank"
-      rel="noopener noreferrer"><img src="image/petbottlerocket.png" alt="ペットボトルロケット"></a>
-  </div>
-  <div class="textsetting1">
-    第2作品です。
-    テーマは「ワンボタン」とし、単純な操作で完結するように作りました。
-    ジャンルは「ミニゲーム」かな？
-    本作の制作では短期間での開発を心がけました。
-    結果、7人日で完成しました。
-    短期間で開発したゲームでしたが、ガッツリやりこんでくださる方もいて、とても励みになりました。
-  </div>
-  </p>
-
-  <h3 id="Game1">運命共同兄弟</h3>
-  <p>
-    「運命共同兄弟～２人を同時に操作して脱出を目指すパズルゲーム～」
-  <div class="imagesetting1">
-    <a href="https://play.google.com/store/apps/details?id=com.DanchingStar" target="_blank"
-      rel="noopener noreferrer"><img src="image/bros.png" alt="運命共同兄弟"></a>
-  </div>
-  <div class="textsetting1">
-    活動開始してから初めて作成したゲームです。
-    おじさんたちを操作してゴールを目指すゲームです。
-    ジャンルはパズルゲームだと思っています。
-    Unityを扱う上で3Dは避けて通れないと思い、2Dでもいいようなゲームを3Dで作成しました。
-    たくさんのステージを作成するのがこんなにも大変なんだと痛感しました。
-    作ってると難易度の感覚が分からなくなってきます。
-    初めての作品ということもあって、いろいろと荒いところもありますが悪しからず…。
-  </div>
-  </p>
-
-  <h2 id="Twitter">Twitter</h2>
-  <p>
-  <div class="textsetting1">
-    ダンチングスターのTwitterです。フォローしていただけると喜びます。
-  </div>
-  <br>
-  <div class="timeline">
-    <a class="twitter-timeline" href="https://twitter.com/Danching_Star?ref_src=twsrc%5Etfw">Tweets by Danching_Star</a>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </div>
-  </p>
 
   <footer>
     <p>© All rights reserved by DanchingStar.</p>
