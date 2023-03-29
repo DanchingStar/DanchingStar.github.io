@@ -142,9 +142,9 @@ footer {
   
   
   /*選択されているタブのコンテンツのみを表示*/
-  #all:checked ~ #all_content,
-  #programming:checked ~ #programming_content,
-  #design:checked ~ #design_content {
+  #SelfIntroduction:checked ~ #SelfIntroduction_content,
+  #SmartphoneGames:checked ~ #SmartphoneGames_content,
+  #Twitter:checked ~ #Twitter_content {
     display: block;
   }
   
