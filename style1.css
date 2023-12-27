@@ -85,9 +85,18 @@ h4 {
     margin: auto;
 }
 
+.imagesetting3 img {
+    width: 20%;
+    margin: auto;
+}
+
 .textsetting1 {
     text-indent: 1em;
     padding-left: -1em;
+}
+
+.textsetting2 {
+    text-indent: 0em;
 }
 
 footer {
